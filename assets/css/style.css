@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+@media (max-width: 1024px) {
+    .icon-nav {
+        margin: 0!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon-nav {
+        display: none!important;
+    }
+}
 
 * {
     padding: 0;
@@ -29,17 +41,48 @@ header.container-fluid {
 }
 
 .navbar-default {
-    margin-top: 25px;
+    margin-top: 20px;
     background: none!important;
-    /*border: none!important;*/
+    border-radius: 0!important;
+    border-right: none!important;
+    border-left: none!important;
 }
 
 .navbar .navbar-nav {
     display: inline-block!important;
     float: none!important;
     font-size: 15px;
+    font-weight: 300!important;
 }
 
 .navbar .navbar-collapse {
     text-align: center!important;
+}
+.icon-nav {
+    margin: 0 25px;
+    pointer-events: none!important;
+}
+.navbar-nav li a {
+    color: #ffffff!important;
+}
+
+.navbar-nav li:hover {
+    border-top: 3px solid #5987fa!important;
+    color: #5987fa!important;
+}
+
+.header-text h1 {
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 700;
+    margin-top: 125px;
+}
+
+.text-scroll {
+    margin-top: 100px;
+}
+
+.text-scroll p {
+    font-size: 18px;
+    color: #6478a9;
 }
