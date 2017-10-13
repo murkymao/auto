@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto",sans-serif!important;
 }
 
 header.container-fluid {
@@ -26,6 +26,12 @@ header.container-fluid {
 
 .nav-first {
     margin-top: 20px;
+}
+
+.navbar-default {
+    margin-top: 25px;
+    background: none!important;
+    /*border: none!important;*/
 }
 
 .navbar .navbar-nav {
