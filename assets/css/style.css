@@ -1,1 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto",sans-serif;
+}
+
+header.container-fluid {
+    background-image: url("../img/header-bg.jpg");
+    background-attachment: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 680px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.nav-first {
+    margin-top: 20px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block!important;
+    float: none!important;
+    font-size: 15px;
+}
+
+.navbar .navbar-collapse {
+    text-align: center!important;
+}
