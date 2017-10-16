@@ -2,13 +2,13 @@
 
 @media (max-width: 1024px) {
     .icon-nav {
-        margin: 0!important;
+        margin: 0 !important;
     }
 }
 
 @media (max-width: 768px) {
     .icon-nav {
-        display: none!important;
+        display: none !important;
     }
 }
 
@@ -20,7 +20,12 @@
 }
 
 body {
-    font-family: "Roboto",sans-serif!important;
+    font-family: "Roboto", sans-serif !important;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 header.container-fluid {
@@ -49,28 +54,28 @@ header.container-fluid {
 }
 
 .navbar .navbar-nav {
-    display: inline-block!important;
-    float: none!important;
+    display: inline-block !important;
+    float: none !important;
     font-size: 15px;
-    font-weight: 300!important;
+    font-weight: 300 !important;
 }
 
 .navbar .navbar-collapse {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 .icon-nav {
     margin: 0 25px;
-    pointer-events: none!important;
+    pointer-events: none !important;
 }
 
 .navbar-nav li a {
-    color: #ffffff!important;
+    color: #ffffff !important;
 }
 
 .navbar-nav li a:hover {
-    border-top: 1px solid #5987fa!important;
-    color: #5987fa!important;
+    border-top: 1px solid #5987fa !important;
+    color: #5987fa !important;
 }
 
 .header-text h1 {
@@ -91,11 +96,6 @@ header.container-fluid {
 
 .text-round {
     margin: 80px 0 50px 0;
-}
-
-.text-round h2 {
-    font-size: 40px;
-    font-weight: bold;
 }
 
 .box .content h3 {
@@ -196,9 +196,6 @@ header.container-fluid {
     left: 50%;
 }
 
-
-
-
 /* Fix the circle for containers on the right side */
 .right::after {
     left: -40px;
@@ -243,4 +240,17 @@ header.container-fluid {
     .right {
         left: 0%;
     }
+}
+
+.examples-of-purchases {
+    background-image: url("../img/bg-examples-of-purchases.jpg");
+    background-attachment: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 1110px;
+}
+
+.examples-of-purchases h2 {
+    color: #ffffff;
 }
