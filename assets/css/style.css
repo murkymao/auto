@@ -187,17 +187,17 @@ header.container-fluid {
 }
 
 /* Place the container to the left */
-.left {
+.left-box {
     left: 0;
 }
 
 /* Place the container to the right */
-.right {
+.right-box {
     left: 50%;
 }
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.right-box::after {
     left: -40px;
 }
 
@@ -232,12 +232,12 @@ header.container-fluid {
     }
 
     /* Make sure all circles are at the same spot */
-    .left::after, .right::after {
+    .left-box::after, .right-box::after {
         left: -10px;
     }
 
     /* Make all right containers behave like the left ones */
-    .right {
+    .right-box {
         left: 0%;
     }
 }
@@ -270,36 +270,42 @@ header.container-fluid {
 /* Previous button  */
 .media-carousel .carousel-control.left {
     left: 40px;
-    background-image: none;
-    background: none repeat scroll 0 0 #222222;
+    background: none repeat scroll 0 0;
     border: 1px solid #6478A9;
-    height: 40px;
+    height: 35px;
     width: 40px;
     margin-top: 30px
+}
+
+.media-carousel .carousel-control.left:hover {
+    background-color: #6478A9;
 }
 
 /* Next button  */
 .media-carousel .carousel-control.right {
     right: 40px !important;
-    background-image: none;
-    background: none repeat scroll 0 0 #222222;
+    background: none repeat scroll 0 0;
     border: 1px solid #6478A9;
-    height: 40px;
+    height: 35px;
     width: 40px;
     margin-top: 30px
+}
+
+.media-carousel .carousel-control.right:hover {
+    background-color: #6478A9;
 }
 
 /* Changes the position of the indicators */
 .media-carousel .carousel-indicators {
     right: 50%;
     top: auto;
-    bottom: 0px;
+    bottom: 0;
     margin-right: -19px;
 }
 
 /* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li {
-    background: #c0c0c0;
+.media-carousel .carousel-indicators ul {
+    background: #6478A9;
 }
 
 .media-carousel .carousel-indicators .active {
@@ -318,9 +324,18 @@ header.container-fluid {
     padding: 40px 10px;
 }
 
+.price:hover {
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
 .price .main-price a {
     color: #ffffff;
     font-size: 30px;
+}
+
+.price .main-price a:hover {
+    color: #6478A9;
+    text-decoration: none;
 }
 
 .price .main-price p {
