@@ -111,7 +111,7 @@ header.container-fluid {
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
