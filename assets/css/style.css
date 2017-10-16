@@ -32,7 +32,7 @@ header.container-fluid {
     min-height: 680px;
 }
 
-.centered {
+.text-centered {
     text-align: center;
 }
 
@@ -40,12 +40,12 @@ header.container-fluid {
     margin-top: 20px;
 }
 
-.navbar-default {
+.header-navigation {
     margin-top: 20px;
-    background: none!important;
-    border-radius: 0!important;
-    border-right: none!important;
-    border-left: none!important;
+    background: none;
+    border-radius: 0;
+    border-right: none;
+    border-left: none;
 }
 
 .navbar .navbar-nav {
@@ -58,16 +58,18 @@ header.container-fluid {
 .navbar .navbar-collapse {
     text-align: center!important;
 }
+
 .icon-nav {
     margin: 0 25px;
     pointer-events: none!important;
 }
+
 .navbar-nav li a {
     color: #ffffff!important;
 }
 
-.navbar-nav li:hover {
-    border-top: 3px solid #5987fa!important;
+.navbar-nav li a:hover {
+    border-top: 1px solid #5987fa!important;
     color: #5987fa!important;
 }
 
@@ -103,7 +105,7 @@ header.container-fluid {
     content: '';
     position: absolute;
     width: 2px;
-    background-color: blue;
+    background-color: #d5ddf1;
     top: 15px;
     bottom: 0;
     left: 50%;
@@ -124,12 +126,49 @@ header.container-fluid {
     position: absolute;
     width: 80px;
     height: 80px;
-    right: -45px;
-    background-color: white;
-    border: 4px solid #FF9F55;
+    right: -40px;
+    /*background-color: #d5ddf1;*/
+
+    border: none;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
+}
+
+.circle-one::after {
+    background-image: url("../img/1.png");
+}
+
+.circle-two::after {
+    background-image: url("../img/2.png");
+}
+
+.circle-three::after {
+    background-image: url("../img/3.png");
+}
+
+.circle-four::after {
+    background-image: url("../img/4.png");
+}
+
+.circle-five::after {
+    background-image: url("../img/5.png");
+}
+
+.circle-six::after {
+    background-image: url("../img/6.png");
+}
+
+.circle-seven::after {
+    background-image: url("../img/7.png");
+}
+
+.circle-eight::after {
+    background-image: url("../img/8.png");
+}
+
+.circle-nine::after {
+    background-image: url("../img/9.png");
 }
 
 /* Place the container to the left */
@@ -147,7 +186,7 @@ header.container-fluid {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-    left: -45px;
+    left: -40px;
 }
 
 /* The actual content */
