@@ -93,6 +93,21 @@ header.container-fluid {
     margin: 80px 0 50px 0;
 }
 
+.text-round h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box .content h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.box .content p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
@@ -114,7 +129,7 @@ header.container-fluid {
 
 /* Container around content */
 .box {
-    padding: 0 20px;
+    padding: 1px 60px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -221,7 +236,7 @@ header.container-fluid {
 
     /* Make sure all circles are at the same spot */
     .left::after, .right::after {
-        left: 15px;
+        left: -10px;
     }
 
     /* Make all right containers behave like the left ones */
