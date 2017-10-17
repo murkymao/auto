@@ -484,15 +484,13 @@ button.accordion.active, button.accordion:hover {
 }
 
 button.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
+    content: url("../img/arrow-before.png");
     float: right;
     margin-left: 5px;
 }
 
 button.accordion.active:after {
-    content: "\2212";
+    content: url("../img/arrow-after.png");
 }
 
 div.panel {
