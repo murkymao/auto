@@ -500,3 +500,33 @@ div.panel-accordion {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+/*Footer*/
+
+.footer-top {
+    background-image: url("../img/footer-bg.jpg");
+    background-attachment: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 350px;
+}
+
+.footer-top h2 {
+    color: #ffffff;
+    font-size: 37px;
+}
+
+.input-group .form-control {
+    height: 55px;
+}
+
+.footer-bottom {
+    background-image: url("../img/footer-bg-bottom.jpg");
+    background-attachment: relative;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 240px;
+}
+
