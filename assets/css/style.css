@@ -46,6 +46,10 @@ h2 {
     padding: 15px 88px;
 }
 
+.btn-cost {
+    padding: 15px 115px;
+}
+
 header.container-fluid {
     background-image: url("../img/header-bg.jpg");
     background-attachment: relative;
@@ -385,4 +389,49 @@ header.container-fluid {
 
 .price .next-price p:last-child {
     color: #797d88;
+}
+
+/*Cost of Delivery*/
+
+#cost-of-delivery {
+    min-height: 890px;
+    background-color: #ececec;
+}
+
+.cost-row {
+    margin-top: 135px;
+}
+
+.cost-panel {
+    background-color: #ffffff;
+    min-height: 320px;
+}
+
+.cost-column .cost-rate {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 30px 25px;
+}
+
+.cost-column .cost-price {
+    color: #486dc9;
+    font-size: 27px;
+    font-weight: bold;
+
+}
+
+.cost-column .cost-price del {
+    color: #999daa;
+    font-size: 20px;
+}
+
+.cost-text ul {
+    padding-left: 30px;
+    list-style-type: square;
+}
+
+.cost-img {
+    position: relative;
+    top: -70px;
+    left: 30px;
 }
