@@ -440,3 +440,9 @@ header.container-fluid {
     top: -70px;
     left: 30px;
 }
+
+/*Auction*/
+
+#auction {
+    background-color: #f7f9ff;
+}
