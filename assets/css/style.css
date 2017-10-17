@@ -28,6 +28,24 @@ h2 {
     font-weight: bold;
 }
 
+.button {
+    background-color: #4d78e4;
+    border: none;
+    color: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 3px #38549c;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-top {
+    padding: 10px 30px;
+}
+
+.btn-big {
+    padding: 15px 88px;
+}
+
 header.container-fluid {
     background-image: url("../img/header-bg.jpg");
     background-attachment: relative;
@@ -92,6 +110,10 @@ header.container-fluid {
 .text-scroll p {
     font-size: 18px;
     color: #6478a9;
+}
+
+.text-scroll .center-scroll {
+    padding-top: 8px;
 }
 
 .text-round {
