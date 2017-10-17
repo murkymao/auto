@@ -445,4 +445,16 @@ header.container-fluid {
 
 #auction {
     background-color: #f7f9ff;
+    min-height: 610px;
+}
+
+.auction-logo {
+    height: 96px;
+    margin: 10px 0 10px 0;
+}
+
+.auction-column p {
+    min-height: 220px;
+    font-size: 14px;
+    font-weight: 300;
 }

@@ -789,7 +789,8 @@
         </div>
     </div>
 </div>
-<div class="container-fluid" id="auction">
+<div class="container-fluid"
+     id="auction">
     <div class="container">
         <div class="row text-centered text-round">
             <div class="col-lg-12">
@@ -798,28 +799,51 @@
                      alt="icon">
             </div>
         </div>
-        <div class="row text-centered auction-columns">
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <img src="assets/img/auction-logo-1.png"
+        <div class="row text-centered auction">
+            <div class="col-lg-4 col-md-4 col-sm-12 auction-column auction-column-one">
+                <div class="auction-logo"><img src="assets/img/auction-logo-1.png"
                      alt=""></div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <img src="assets/img/auction-logo-2.png"
+                <p> Аукцион IAAI (Insurance Auto Auction) – Страховой Автомобильный Аукцион США. Из названия уже понятно
+                    что аукцион специализируется на продаже техники списанной страховыми компаниями или банками, битых
+                    автомобилей и техники с различной степенью повреждений...</p>
+                <button type="button"
+                        class="button btn-cost">УЗНАТЬ БОЛЬШЕ
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 auction-column auction-column-two">
+               <div class="auction-logo"> <img src="assets/img/auction-logo-2.png"
                      alt=""></div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-                <img src="assets/img/auction-logo-3.png"
+                <p>Copart – один из старейших аукционов США по продаже БУ автомобилей. Аукцион Копарт, это в первую
+                    очередь страховой аукцион, поэтому тут продают преимущественно битые автомобили, автомобили
+                    подвергшиеся вандализму, поврежденные градом, авто после ДТП..и тп., проще говоря подвергшиеся
+                    страховому случаю...</p>
+                <button type="button"
+                        class="button btn-cost">УЗНАТЬ БОЛЬШЕ
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 auction-column auction-column-three">
+                <div class="auction-logo"><img src="assets/img/auction-logo-3.png"
                      alt=""></div>
+                <p>Аукцион Manheim – самый большой автомобильный аукцион США и Америки в общем. Основное отличие от
+                    аукционов Копарт или iaai.com (Insurance), в том что Манхейм это аукцион закрытого типа, и даже для
+                    просмотра лотов на нем нужен специальный доступ. Так же Манхейм это лизинговый а не страховой
+                    аукцион, соответственно большинство автомобилей тут – это конфискованный за долги транспорт... </p>
+                <button type="button"
+                        class="button btn-cost">УЗНАТЬ БОЛЬШЕ
+                </button>
+            </div>
         </div>
     </div>
 </div>
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 
-    <script>$(document).ready(function () {
-        $('#media').carousel({
-            pause: true,
-            interval: false,
-        });
+<script>$(document).ready(function () {
+    $('#media').carousel({
+        pause: true,
+        interval: false,
     });
-    </script>
+});
+</script>
 </body>
 </html>
