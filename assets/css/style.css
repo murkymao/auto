@@ -493,7 +493,7 @@ button.accordion.active:after {
     content: url("../img/arrow-after.png");
 }
 
-div.panel {
+div.panel-accordion {
     padding: 0 18px;
     background-color: #f7f9ff;
     max-height: 0;
