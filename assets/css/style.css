@@ -444,8 +444,7 @@ header.container-fluid {
 /*Auction*/
 
 #auction {
-    background-color: #f7f9ff;
-    min-height: 610px;
+    min-height: 700px;
 }
 
 .auction-logo {
@@ -457,4 +456,49 @@ header.container-fluid {
     min-height: 220px;
     font-size: 14px;
     font-weight: 300;
+}
+
+#questions {
+    background-color: #f7f9ff;
+}
+
+/*Accordion*/
+
+button.accordion {
+    background-color: #f7f9ff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #e6c97c;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #f7f9ff;
+}
+
+button.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #f7f9ff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
