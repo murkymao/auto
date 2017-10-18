@@ -14,13 +14,15 @@
 
 </head>
 <body>
-<header class="container-fluid">
+<header class="container-fluid header">
     <div class="container">
         <div class=" row nav-first">
             <div class="col-lg-3 col-md-4 col-sm-4 address ">
-                <img src="assets/img/address.png"
-                     alt="адрес">
-                <p>г.Киев <br>ул.Радомышльская, 44</p>
+                <div class="address-image">
+                    <img src="assets/img/address.png"
+                         alt="адрес">
+                </div>
+                <div class="address-city">г.Киев <br>ул.Радомышльская, 44</div>
             </div>
             <div class="col-lg-4 col-lg-offset-1 col-md-4 col-sm-4 logo-top text-centered">
                 <img src="assets/img/Logo.png"
@@ -28,10 +30,9 @@
                 <br>
                 <p>AUTOPORT</p>
             </div>
-            <div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-4 phone-number text-centered">
-                <img src="assets/img/phone.png"
-                     alt="телефон">
-                +38(067)2001500
+            <div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-4 phone-number text-right">
+                <div class="number"><img src="assets/img/phone.png"
+                                         alt="телефон">+38(067)2001500</div>
                 <button type="button"
                         class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
                 </button>
@@ -971,8 +972,8 @@
 </div>
 <div class="container-fluid footer-bottom">
     <div class="container">
-        <div class="row text-centered row-bottom">
-            <div class="col-lg-3 col-md-3 bottom-column">
+        <div class="row row-bottom">
+            <div class="col-lg-3 col-md-3 bottom-column text-centered">
                 <img src="assets/img/Logo.png"
                      alt="logo">
                 <br>
@@ -987,54 +988,57 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 address bottom-column">
-                <img src="assets/img/address.png"
-                     alt="адрес">
-                <p>г.Киев <br>ул.Радомышльская, 44</p></div>
-            <div class="col-lg-3 col-md-3 phone-number bottom-column">
-                <img src="assets/img/phone.png"
-                     alt="телефон">
-                +38(067)2001500
-                <button type="button"
-                        class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
-                </button>
+                <div class="address-image">
+                    <img src="assets/img/address.png"
+                         alt="адрес">
+                </div>
+                <div class="address-city">г.Киев <br>ул.Радомышльская, 44</div>
             </div>
-        </div>
-        <div class="row text-centered">
-            <div class="col-lg-12 col-md-12">
-                <small>Все фото и видео материалы пренадлежат их владельцам и используются только как примеры.
-                    Пожалуйста не используйте их в коммерческих целях.
-                </small>
+                <div class="col-lg-3 col-md-3 phone-number bottom-column text-centered">
+
+                    <div class="number"><img src="assets/img/phone.png"
+                                             alt="телефон">+38(067)2001500</div>
+                    <button type="button"
+                            class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
+                    </button>
+                </div>
+            </div>
+            <div class="row text-centered">
+                <div class="col-lg-12 col-md-12">
+                    <small>Все фото и видео материалы пренадлежат их владельцам и используются только как примеры.
+                        Пожалуйста не используйте их в коммерческих целях.
+                    </small>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="https://use.fontawesome.com/4e07afaf5c.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/4e07afaf5c.js"></script>
 
 
-<script>var acc = document.getElementsByClassName("accordion");
-var i;
+    <script>var acc = document.getElementsByClassName("accordion");
+    var i;
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function () {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function () {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
         }
     }
-}
-</script>
-<script>$(document).ready(function () {
-    $('#media').carousel({
-        pause: true,
-        interval: false,
+    </script>
+    <script>$(document).ready(function () {
+        $('#media').carousel({
+            pause: true,
+            interval: false,
+        });
     });
-});
-</script>
+    </script>
 </body>
 </html>

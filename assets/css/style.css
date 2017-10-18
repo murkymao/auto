@@ -10,6 +10,11 @@
     .icon-nav {
         display: none !important;
     }
+
+    header.container-fluid.header {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 * {
@@ -55,7 +60,7 @@ h2 {
     background-color: #38549c;
 }
 
-header.container-fluid {
+header.container-fluid.header {
     background-image: url("../img/header-bg.jpg");
     background-attachment: relative;
     background-position: center center;
@@ -73,12 +78,25 @@ header.container-fluid {
     color: #ffffff;
 }
 
-.address p {
+.address {
+    display: flex;
+    padding-top: 10px;
+}
+
+.address .address-image {
+    margin: 5px 20px 0 0;
+}
+
+.address .address-city {
     font-size: 16px;
 }
 
 .phone-number {
     font-size: 21px;
+}
+
+.phone-number .number {
+    margin-bottom: 10px;
 }
 
 .header-navigation {
@@ -538,6 +556,7 @@ div.panel-accordion {
     width: 100%;
     min-height: 240px;
 }
+
 .row-bottom {
     padding-bottom: 10px;
     margin-bottom: 25px;
@@ -546,7 +565,7 @@ div.panel-accordion {
 
 .bottom-column {
     min-height: 130px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-top: 30px;
     color: #ffffff;
     border-right: 1px solid #999999;
