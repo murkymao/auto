@@ -31,8 +31,11 @@
                 <p>AUTOPORT</p>
             </div>
             <div class="col-lg-3 col-lg-offset-1 col-md-4 col-sm-4 phone-number text-right">
-                <div class="number"><img src="assets/img/phone.png"
-                                         alt="телефон">+38(067)2001500</div>
+                <div class="number">
+                    <img src="assets/img/phone.png"
+                         alt="телефон">
+                    +38(067)2001500
+                </div>
                 <button type="button"
                         class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
                 </button>
@@ -89,7 +92,9 @@
         </div>
         <div class="row text-scroll text-centered">
             <div class="col-lg-12"><p>Схема работы</p>
-                <a href="#timeline">
+                <a class="scroll-one"
+                   href="#"
+                   address="true">
                     <img src="assets/img/scroll-btn.png"
                          alt="btn">
                 </a>
@@ -192,7 +197,8 @@
                 <hr>
             </div>
             <div class="col-lg-4 center-scroll"><p>Какие цены на авто в США?</p>
-                <a href="#examples-of-purchases">
+                <a class="scroll-two"
+                   href="#" address="true">
                     <img src="assets/img/scroll-btn.png"
                          alt="btn">
                 </a>
@@ -657,7 +663,7 @@
                 <hr>
             </div>
             <div class="col-lg-4 center-scroll"><p>Какая цена доставки в Украину?</p>
-                <a href="#cost-of-delivery">
+                <a class="scroll-three" href="#">
                     <img src="assets/img/scroll-btn.png"
                          alt="btn">
                 </a>
@@ -781,7 +787,7 @@
                 <hr>
             </div>
             <div class="col-lg-4 center-scroll"><p>Где мне выбирать авто?</p>
-                <a href="#auction">
+                <a class="scroll-four" href="#">
                     <img src="assets/img/scroll-btn.png"
                          alt="btn">
                 </a>
@@ -978,7 +984,7 @@
                      alt="logo">
                 <br>
                 <p>AUTOPORT</p></div>
-            <div class="col-lg-3 col-md-3 bottom-column">
+            <div class="col-lg-3 col-md-3 bottom-nav bottom-column">
                 <ul>
                     <li><a href="#">Как все работает</a></li>
                     <li><a href="#">Примеры покупок</a></li>
@@ -994,51 +1000,55 @@
                 </div>
                 <div class="address-city">г.Киев <br>ул.Радомышльская, 44</div>
             </div>
-                <div class="col-lg-3 col-md-3 phone-number bottom-column text-centered">
+            <div class="col-lg-3 col-md-3 phone-number bottom-column text-right">
 
-                    <div class="number"><img src="assets/img/phone.png"
-                                             alt="телефон">+38(067)2001500</div>
-                    <button type="button"
-                            class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
-                    </button>
+                <div class="number">
+                    <img src="assets/img/phone.png"
+                         alt="телефон">
+                    +38(067)2001500
                 </div>
+                <button type="button"
+                        class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
+                </button>
             </div>
-            <div class="row text-centered">
-                <div class="col-lg-12 col-md-12">
-                    <small>Все фото и видео материалы пренадлежат их владельцам и используются только как примеры.
-                        Пожалуйста не используйте их в коммерческих целях.
-                    </small>
-                </div>
+        </div>
+        <div class="row text-centered">
+            <div class="col-lg-12 col-md-12">
+                <small>Все фото и видео материалы пренадлежат их владельцам и используются только как примеры.
+                    Пожалуйста не используйте их в коммерческих целях.
+                </small>
             </div>
         </div>
     </div>
+</div>
 
-    <script src="assets/js/jquery-3.2.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/4e07afaf5c.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/4e07afaf5c.js"></script>
+<script src="assets/js/scroll-down.js"></script>
 
 
-    <script>var acc = document.getElementsByClassName("accordion");
-    var i;
+<script>var acc = document.getElementsByClassName("accordion");
+var i;
 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].onclick = function () {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
         }
     }
-    </script>
-    <script>$(document).ready(function () {
-        $('#media').carousel({
-            pause: true,
-            interval: false,
-        });
+}
+</script>
+<script>$(document).ready(function () {
+    $('#media').carousel({
+        pause: true,
+        interval: false,
     });
-    </script>
+});
+</script>
 </body>
 </html>
