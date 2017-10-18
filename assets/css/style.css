@@ -538,4 +538,28 @@ div.panel-accordion {
     width: 100%;
     min-height: 240px;
 }
+.row-bottom {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999999;
+}
+
+.bottom-column {
+    min-height: 130px;
+    padding-top: 10px;
+    margin-top: 30px;
+    color: #ffffff;
+    border-right: 1px solid #999999;
+}
+
+.bottom-column ul {
+    list-style-type: none;
+}
+
+.bottom-column ul li a {
+    color: #ffffff;
+}
+
+.bottom-column:last-child {
+    border-right: none;
+}
 
