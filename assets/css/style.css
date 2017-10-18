@@ -540,6 +540,7 @@ div.panel-accordion {
 }
 .row-bottom {
     padding-bottom: 10px;
+    margin-bottom: 25px;
     border-bottom: 1px solid #999999;
 }
 
@@ -557,6 +558,11 @@ div.panel-accordion {
 
 .bottom-column ul li a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+.bottom-column ul li a:hover {
+    color: #38549C;
 }
 
 .bottom-column:last-child {
