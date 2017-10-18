@@ -11,9 +11,17 @@
         display: none !important;
     }
 
-    header.container-fluid.header {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+    header .container-fluid {
+        padding: 0 !important;
+    }
+
+    .navbar-collapse {
+        padding: 0!important;
+    }
+
+    .row-bottom .bottom-column {
+        text-align: center;
+        padding: 0;
     }
 }
 
@@ -590,5 +598,10 @@ div.panel-accordion {
 
 .bottom-nav {
     padding-left: 60px;
+}
+
+.small-bottom-text {
+    color: #999999;
+    font-weight: 300;
 }
 
