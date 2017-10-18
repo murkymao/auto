@@ -23,6 +23,10 @@
         text-align: center;
         padding: 0;
     }
+
+    .address-bottom {
+        display: block!important;
+    }
 }
 
 * {
@@ -86,7 +90,7 @@ header.container-fluid.header {
     color: #ffffff;
 }
 
-.address {
+.address, .address-bottom {
     display: flex;
     padding-top: 10px;
 }
@@ -95,7 +99,15 @@ header.container-fluid.header {
     margin: 5px 20px 0 0;
 }
 
+.address-bottom .address-image {
+    margin: 5px 20px 0 0;
+}
+
 .address .address-city {
+    font-size: 16px;
+}
+
+.address-bottom .address-city {
     font-size: 16px;
 }
 
@@ -531,6 +543,7 @@ button.accordion.active:after {
 div.panel-accordion {
     padding: 0 18px;
     background-color: #f7f9ff;
+    border: none;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
