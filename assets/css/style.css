@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .icon-nav {
         margin: 0 !important;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .icon-nav {
         display: none !important;
     }
@@ -26,6 +26,19 @@
 
     .address-bottom {
         display: block!important;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .phone-number {
+        text-align: center!important;
+    }
+
+    .address {
+        justify-content: center;
+    }
+    .cost-img {
+        top: 0!important;
     }
 }
 
