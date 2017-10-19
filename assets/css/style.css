@@ -622,4 +622,8 @@ div.panel-accordion {
     color: #999999;
     font-weight: 300;
 }
+#map {
+    width: 100%;
+    height: 400px;
+}
 
