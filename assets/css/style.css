@@ -352,7 +352,7 @@ header.container-fluid.header {
     border: 1px solid #6478A9;
     height: 35px;
     width: 40px;
-    margin-top: 30px
+    margin-top: 50px
 }
 
 .media-carousel .carousel-control.left:hover {
@@ -366,7 +366,7 @@ header.container-fluid.header {
     border: 1px solid #6478A9;
     height: 35px;
     width: 40px;
-    margin-top: 30px
+    margin-top: 50px
 }
 
 .media-carousel .carousel-control.right:hover {
@@ -503,6 +503,11 @@ header.container-fluid.header {
     min-height: 220px;
     font-size: 14px;
     font-weight: 300;
+}
+
+.auction-column a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 #questions {
