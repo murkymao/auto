@@ -41,7 +41,7 @@
                     +38(067)2001500
                 </div>
                 <button type="button"
-                        class="button btn-top">ПЕРЕЗВОНИТЕ МНЕ
+                        class="button btn-top"><a href="mailto:autoport.ua@gmail.com">ПЕРЕЗВОНИТЕ МНЕ</a>
                 </button>
             </div>
         </div>
@@ -365,8 +365,7 @@
     </div>
 </div>
 
-</div>
-</div>
+
 <div class="container-fluid"
      id="cost-of-delivery">
     <div class="container">
@@ -632,9 +631,10 @@
                      alt="icon">
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4">
-                <form>
+        <form>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
                         <input id="name"
@@ -643,10 +643,10 @@
                                name="name"
                                placeholder="Ваше имя">
                     </div>
-                </form>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <form>
+
+                </div>
+                <div class="col-lg-4 col-md-4">
+
                     <div class="input-group">
                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                         <input id="phone"
@@ -655,15 +655,16 @@
                                name="phone"
                                placeholder="Ваш телефон">
                     </div>
-                </form>
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <button type="button"
-                        class="button btn-cost">ОТПРАВИТЬ
-                </button>
 
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <button type="button"
+                            class="button btn-cost">ОТПРАВИТЬ
+                    </button>
+
+                </div>
             </div>
-        </div>
+        </form>
 
     </div>
 </div>
@@ -738,20 +739,47 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 
-<script>$(document).ready(function () {
-    $('.media-carousel').slick({
-        dots: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+<script>
+    $(document).ready(function () {
+        $('.media-carousel').slick({
+            dots: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
 
-        centerPadding: '25px',
-        autoplay: false,
-        autoplaySpeed: 2000
+            centerPadding: '25px',
+            autoplay: false,
+            autoplaySpeed: 2000,
 
+        });
     });
-});
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtiOMTq2vI57dSgrWRs4p8kXnBv2StOVc&callback=myMap"></script>
+<script type='text/javascript'>
+    (function () {
+        var widget_id = 'wLPNrBJcK2';
+        var d = document;
+        var w = window;
+
+        function l() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//code.jivosite.com/script/widget/' + widget_id;
+            var ss = document.getElementsByTagName('script')[0];
+            ss.parentNode.insertBefore(s, ss);
+        }
+
+        if (d.readyState == 'complete') {
+            l();
+        } else {
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })();
+</script>
 </body>
 </html>
