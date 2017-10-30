@@ -16,7 +16,7 @@
     }
 
     .navbar-collapse {
-        padding: 0!important;
+        padding: 0 !important;
     }
 
     .row-bottom .bottom-column {
@@ -25,20 +25,21 @@
     }
 
     .address-bottom {
-        display: block!important;
+        display: block !important;
     }
 }
 
 @media screen and (min-width: 425px) {
     .phone-number {
-        text-align: center!important;
+        text-align: center !important;
     }
 
     .address {
         justify-content: center;
     }
+
     .cost-img {
-        top: 0!important;
+        top: 0 !important;
     }
 }
 
@@ -359,49 +360,49 @@ header.container-fluid.header {
 }
 
 /* Previous button  */
-.media-carousel .carousel-control.left {
-    left: 40px;
-    background: none repeat scroll 0 0;
-    border: 1px solid #6478A9;
-    height: 35px;
-    width: 40px;
-    margin-top: 50px
-}
+/*.media-carousel .carousel-control.left {*/
+    /*left: 40px;*/
+    /*background: none repeat scroll 0 0;*/
+    /*border: 1px solid #6478A9;*/
+    /*height: 35px;*/
+    /*width: 40px;*/
+    /*margin-top: 50px*/
+/*}*/
 
-.media-carousel .carousel-control.left:hover {
-    background-color: #6478A9;
-}
+/*.media-carousel .carousel-control.left:hover {*/
+    /*background-color: #6478A9;*/
+/*}*/
 
-/* Next button  */
-.media-carousel .carousel-control.right {
-    right: 40px !important;
-    background: none repeat scroll 0 0;
-    border: 1px solid #6478A9;
-    height: 35px;
-    width: 40px;
-    margin-top: 50px
-}
+/*!* Next button  *!*/
+/*.media-carousel .carousel-control.right {*/
+    /*right: 40px !important;*/
+    /*background: none repeat scroll 0 0;*/
+    /*border: 1px solid #6478A9;*/
+    /*height: 35px;*/
+    /*width: 40px;*/
+    /*margin-top: 50px*/
+/*}*/
 
-.media-carousel .carousel-control.right:hover {
-    background-color: #6478A9;
-}
+/*.media-carousel .carousel-control.right:hover {*/
+    /*background-color: #6478A9;*/
+/*}*/
 
-/* Changes the position of the indicators */
-.media-carousel .carousel-indicators {
-    right: 50%;
-    top: auto;
-    bottom: 0;
-    margin-right: -19px;
-}
+/*!* Changes the position of the indicators *!*/
+/*.media-carousel .carousel-indicators {*/
+    /*right: 50%;*/
+    /*top: auto;*/
+    /*bottom: 0;*/
+    /*margin-right: -19px;*/
+/*}*/
 
-/* Changes the colour of the indicators */
-.media-carousel .carousel-indicators ul {
-    background: #6478A9;
-}
+/*!* Changes the colour of the indicators *!*/
+/*.media-carousel .carousel-indicators ul {*/
+    /*background: #6478A9;*/
+/*}*/
 
-.media-carousel .carousel-indicators .active {
-    background: #6478A9;
-}
+/*.media-carousel .carousel-indicators .active {*/
+    /*background: #6478A9;*/
+/*}*/
 
 .media-carousel img {
     width: 100%;
@@ -635,6 +636,7 @@ div.panel-accordion {
     color: #999999;
     font-weight: 300;
 }
+
 #map {
     width: 100%;
     height: 400px;
