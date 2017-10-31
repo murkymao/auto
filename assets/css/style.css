@@ -337,7 +337,7 @@ header.container-fluid.header {
 
     /* Make all right containers behave like the left ones */
     .right-box {
-        left: 0%;
+        left: 0;
     }
 }
 
@@ -642,10 +642,5 @@ div.panel-accordion {
 .small-bottom-text {
     color: #999999;
     font-weight: 300;
-}
-
-#map {
-    width: 100%;
-    height: 400px;
 }
 
